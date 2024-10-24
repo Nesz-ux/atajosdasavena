@@ -12,7 +12,11 @@ const App = () => {
 
   const filteredApps = apps.filter(app => {
     const title = app.title.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-    return title.includes(searchTerm.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase());
+    const description = app.description.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    const normalizedSearchTerm = searchTerm.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+    // Filtrar por título o descripción
+    return title.includes(normalizedSearchTerm) || description.includes(normalizedSearchTerm);
   });
 
   return (
