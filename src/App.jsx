@@ -15,7 +15,6 @@ const App = () => {
     const description = app.description.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     const normalizedSearchTerm = searchTerm.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-    // Filtrar por título o descripción
     return title.includes(normalizedSearchTerm) || description.includes(normalizedSearchTerm);
   });
 
