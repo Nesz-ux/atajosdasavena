@@ -1,5 +1,4 @@
 import soporteTI from "./images/soporteTI.png";
-import dasavenaLogo from "./images/dasavenaLogo64px.png";
 import equipoComputo from "./images/equipoComputo.png";
 import permisos from "./images/permisosRH.png";
 import pagos from "./images/pagos.png";
@@ -15,7 +14,6 @@ import shopify from "./images/shopify.png";
 import factura from "./images/factura.png";
 import masteredi from "./images/masteredi.png";
 import sharePoint from "./images/sharePoint.png";
-
 
 const apps = [
   {
@@ -59,7 +57,8 @@ const apps = [
   {
     image: cajaChica,
     title: "Solicitud Caja Chica",
-    description: "Accede a la aplicación para realizar solicitudes de dinero a la administración de forma rápida y sencilla.",
+    description:
+      "Accede a la aplicación para realizar solicitudes de dinero a la administración de forma rápida y sencilla.",
     url: "https://apps.powerapps.com/play/e/default-e4c56574-c116-4d00-bcfd-95c771672ffc/a/35c6e036-bb05-44cf-b655-4ed05a20d22c?tenantId=e4c56574-c116-4d00-bcfd-95c771672ffc&hint=42bdae80-568e-4d01-a2d9-8a4a88a434a0&sourcetime=1729786695917&source=portal",
   },
   {
@@ -123,16 +122,17 @@ const apps = [
   {
     image: masteredi,
     title: "Masteredi",
-    description: "Accede a Masteredi para consultar de manera rápida y eficiente los pagos recibidos de clientes en el área de cuentas por cobrar.",
+    description:
+      "Accede a Masteredi para consultar de manera rápida y eficiente los pagos recibidos de clientes en el área de cuentas por cobrar.",
     url: "https://masteredi-app-portalweb-prod.azurewebsites.net/Login/Index?ReturnUrl=%2f",
-  },  
+  },
   {
     image: sharePoint,
     title: "Share Point Dasavena",
-    description: "Plataforma de colaboración que permite gestionar documentos, compartir información y coordinar proyectos dentro de la organización.",
+    description:
+      "Plataforma de colaboración que permite gestionar documentos, compartir información y coordinar proyectos dentro de la organización.",
     url: "https://dasavenagourmet123.sharepoint.com/sites/Dasavena/SitePages/TrainingHome.aspx",
   },
-  
 ];
 
 export default apps;

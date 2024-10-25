@@ -5,7 +5,19 @@
   display: flex;
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
   transition: transform 0.3s ease;
+  min-height: 150px;
+}
+
+.light-mode .card {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-mode .card {
+  background-color: #333;
+  color: white;
 }
 
 .card:hover {
@@ -26,14 +38,14 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0 0 10px 0;
-  color: #fff;
+  color: inherit;
 }
 
 .card-description {
   font-size: 0.9rem;
-  color: #bbb;
+  color: inherit;
 }
 
-.image-container{
-    margin-right: 10px;
+.image-container {
+  margin-right: 10px;
 }

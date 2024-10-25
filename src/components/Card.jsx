@@ -1,8 +1,6 @@
 import React from "react";
 import "./Card.css";
 
-
-
 const Card = ({ image, title, description, url }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
