@@ -21,6 +21,8 @@
 }
 
 .title {
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
   font-size: 2rem;
   margin-bottom: 22px;
   margin-left: 5px;
@@ -54,8 +56,9 @@
 }
 
 .search-bar {
+  font-family: "Lexend", sans-serif;
   width: 80%;
-  max-width: 300px;
+  max-width: 400px;
   padding: 10px;
   margin-bottom: 35px;
   border: 1px solid #ccc;
@@ -80,11 +83,13 @@
 .light-mode .search-bar:focus {
   border-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
 }
 
 .dark-mode .search-bar:focus {
   border-color: #fff;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  font-weight: 500;
 }
 
 .input-container {
@@ -103,9 +108,9 @@
   margin-left: 10px;
   height: 40px;
   width: 60px;
-  display: flex; /* Flexbox para centrar */
-  align-items: center; /* Centra verticalmente */
-  justify-content: center; /* Centra horizontalmente */
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
 }
 
 
@@ -126,7 +131,13 @@
 }
 
 .no-results {
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
   color: #666;
-  margin-top: 20px;
+}
+
+.favorite-section{
+  font-family: "Lexend", sans-serif;
+  margin-bottom: 50px;
 }

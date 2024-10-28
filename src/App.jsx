@@ -1,18 +1,38 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import Lottie from "lottie-react";
 import Card from "./components/Card";
 import "./App.css";
 import apps from "./components/appsData";
 import LogoDasavena from "./components/images/LogoDasavena.png";
-import notFound from "./components/images/notFound.png"
-import notFoundBlack from "./components/images/notFoundBlack.png"
-import moon from "./components/images/luna.gif"
-import sun from "./components/images/sol.gif"
-
-
+import moon from "./components/images/luna.gif";
+import sun from "./components/images/sol.gif";
+import falseSearchWhite from "./components/images/falseSearchWhite.json";
+import falseSearchBlack from "./components/images/falseSearchBlack.json";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [darkMode, setDarkMode] = useState(false);
+  const [favorites, setFavorites] = useState([]);
+
+  //Guardar y actualizar lo favoritos en el localStorage
+  const toggleFavorite = (app) => {
+    let updateFavorites;
+    if (favorites.some((fav) => fav.title === app.title)) {
+      updateFavorites = favorites.filter((fav) => fav.title !== app.title);
+    } else {
+      updateFavorites = [...favorites, app];
+    }
+    setFavorites(updateFavorites);
+    localStorage.setItem("favorites", JSON.stringify(updateFavorites));
+  };
+
+  // Cargar favoritos desde localStorage al iniciar
+  useEffect(() => {
+    const storedFavorites = JSON.parse(localStorage.getItem("favorites"));
+    if (storedFavorites) {
+      setFavorites(storedFavorites);
+    }
+  }, []);
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -22,6 +42,7 @@ const App = () => {
     setDarkMode(!darkMode);
   };
 
+  // Filtrar apps por búsqueda
   const filteredApps = apps.filter((app) => {
     const title = app.title
       .normalize("NFD")
@@ -37,8 +58,9 @@ const App = () => {
       .toLowerCase();
 
     return (
-      title.includes(normalizedSearchTerm) ||
-      description.includes(normalizedSearchTerm)
+      (title.includes(normalizedSearchTerm) ||
+        description.includes(normalizedSearchTerm)) &&
+        !favorites.some((fav) => fav.title === app.title)
     );
   });
 
@@ -60,12 +82,31 @@ const App = () => {
 
         <button onClick={handleChangeTheme} className="btn-change-mode">
           {darkMode ? (
-            <img src={sun} width={35} height={35}/>
+            <img src={sun} width={35} height={35} />
           ) : (
-            <img src={moon} width={30} height={30}/>
+            <img src={moon} width={30} height={30} />
           )}
         </button>
       </div>
+
+      {favorites.length > 0 && (
+        <div className="favorite-section">
+          <h2>Favoritos</h2>
+          <div className="grid">
+            {favorites.map((app, index) => (
+              <Card
+                key={index}
+                image={app.image}
+                title={app.title}
+                description={app.description}
+                url={app.url}
+                isfavorite={true}
+                onToggleFavorite={() => toggleFavorite(app)}
+              />
+            ))}
+          </div>
+        </div>
+      )}
 
       {filteredApps.length > 0 ? (
         <div className="grid">
@@ -76,17 +117,28 @@ const App = () => {
               title={app.title}
               description={app.description}
               url={app.url}
+              isfavorite={favorites.some((fav) => fav.title === app.title)}
+              onToggleFavorite={() => toggleFavorite(app)}
             />
           ))}
         </div>
       ) : (
         <div className="no-results">
           {!darkMode ? (
-            <img src={notFoundBlack}  width={400} height={400}/>
+            <Lottie
+              animationData={falseSearchBlack}
+              autoplay
+              loop={false}
+              style={{ height: "200px", width: "200px" }}
+            />
           ) : (
-            <img src={notFound}  width={400} height={400}/>
-          )} 
-          
+            <Lottie
+              animationData={falseSearchWhite}
+              autoplay
+              loop={false}
+              style={{ height: "200px", width: "200px" }}
+            />
+          )}
         </div>
       )}
     </div>
