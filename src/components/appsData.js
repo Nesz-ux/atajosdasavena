@@ -14,6 +14,8 @@ import shopify from "./images/shopify.png";
 import factura from "./images/factura.png";
 import masteredi from "./images/masteredi.png";
 import sharePoint from "./images/sharePoint.png";
+import netsuite from "./images/NetSuite.svg";
+import amazon from "./images/amazon.png";
 
 const apps = [
   {
@@ -61,6 +63,28 @@ const apps = [
       "Accede a la aplicación para realizar solicitudes de dinero a la administración de forma rápida y sencilla.",
     url: "https://apps.powerapps.com/play/e/default-e4c56574-c116-4d00-bcfd-95c771672ffc/a/35c6e036-bb05-44cf-b655-4ed05a20d22c?tenantId=e4c56574-c116-4d00-bcfd-95c771672ffc&hint=42bdae80-568e-4d01-a2d9-8a4a88a434a0&sourcetime=1729786695917&source=portal",
   },
+  {
+    image: netsuite,
+    title: "NetSuite",
+    description:
+      "Accede a NetSuite para gestionar finanzas, inventarios y operaciones empresariales en tiempo real.",
+    url: "https://system.netsuite.com/app/login/secure/enterpriselogin.nl",
+  },
+  {
+    image: sharePoint,
+    title: "Share Point Dasavena",
+    description:
+      "Plataforma de colaboración que permite gestionar documentos, compartir información y coordinar proyectos dentro de la organización.",
+    url: "https://dasavenagourmet123.sharepoint.com/sites/Dasavena/SitePages/TrainingHome.aspx",
+  },
+  {
+    image: amazon,
+    title: "Amazon Sellers",
+    description:
+      "Administra tus ventas, inventarios y pedidos en la plataforma de Amazon Seller Central.",
+    url: "https://sellercentral.amazon.com.mx/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fsellercentral.amazon.com.mx%2Fhome&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sc_mx_amazon_v2&openid.mode=checkid_setup&language=en_MX&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=sc_mx_amazon_v2&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.Iy0dNtUBUuHQi5OcJG9Ed0WmW8SkD4Eb410wXPauilJN7-UI_HILNA.7LgjECBgcHe0YSE2.wWkJ1Fozfeo_hDtfQVXuODOPkDbSraRhI46aN2ok8xpKbf0qJLXDpJYllCZh_vB8cmLlTfGRWG63KsAiWjE4RHcLhahf2IdVtqY6OOXG0dtn1iU-PI8IF3NKuVyvhRj1mSRcyUbdxK5JSpao1BafXmtgiBk0c6B2D-sgswCwYsBJY94UG5kn54ALYMsxU_uqnWPKzYBjt1M.L7GkdjGlZ4xPxzmraOuRIQ",
+  },
+
   {
     image: mercancia,
     title: "Recepción y Envío de Mercancía",
@@ -125,13 +149,6 @@ const apps = [
     description:
       "Accede a Masteredi para consultar de manera rápida y eficiente los pagos recibidos de clientes en el área de cuentas por cobrar.",
     url: "https://masteredi-app-portalweb-prod.azurewebsites.net/Login/Index?ReturnUrl=%2f",
-  },
-  {
-    image: sharePoint,
-    title: "Share Point Dasavena",
-    description:
-      "Plataforma de colaboración que permite gestionar documentos, compartir información y coordinar proyectos dentro de la organización.",
-    url: "https://dasavenagourmet123.sharepoint.com/sites/Dasavena/SitePages/TrainingHome.aspx",
   },
 ];
 
