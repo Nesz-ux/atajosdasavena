@@ -16,6 +16,7 @@ import masteredi from "./images/masteredi.png";
 import sharePoint from "./images/sharePoint.png";
 import netsuite from "./images/NetSuite.svg";
 import amazon from "./images/amazon.png";
+import kimetrics from "./images/kimetrics.png";
 
 const apps = [
   {
@@ -83,6 +84,13 @@ const apps = [
     description:
       "Administra tus ventas, inventarios y pedidos en la plataforma de Amazon Seller Central.",
     url: "https://sellercentral.amazon.com.mx/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fsellercentral.amazon.com.mx%2Fhome&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sc_mx_amazon_v2&openid.mode=checkid_setup&language=en_MX&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=sc_mx_amazon_v2&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.Iy0dNtUBUuHQi5OcJG9Ed0WmW8SkD4Eb410wXPauilJN7-UI_HILNA.7LgjECBgcHe0YSE2.wWkJ1Fozfeo_hDtfQVXuODOPkDbSraRhI46aN2ok8xpKbf0qJLXDpJYllCZh_vB8cmLlTfGRWG63KsAiWjE4RHcLhahf2IdVtqY6OOXG0dtn1iU-PI8IF3NKuVyvhRj1mSRcyUbdxK5JSpao1BafXmtgiBk0c6B2D-sgswCwYsBJY94UG5kn54ALYMsxU_uqnWPKzYBjt1M.L7GkdjGlZ4xPxzmraOuRIQ",
+  },
+  {
+    image: kimetrics,
+    title: "Kimetrics",
+    description:
+      "Aplicación para la gestión de tiendas que supervisan a los embajadores de la empresa, facilitando el control y seguimiento de su desempeño y las operaciones en cada establecimiento.",
+    url: "https://dasavena.kimetrics.com/",
   },
 
   {
