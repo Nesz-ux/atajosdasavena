@@ -46,7 +46,7 @@ const apps = [
     title: "Permisos e Incidencias",
     description:
       "Aplicación para gestionar solicitudes de permisos de entrada y salida, además del control de ausencias y vacaciones.",
-    url: "https://yetholi.nyc.dom.my.id/login",
+    url: "https://dasavenasite.domcloud.dev/",
   },
 
   {
