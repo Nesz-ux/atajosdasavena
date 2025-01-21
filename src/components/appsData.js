@@ -17,6 +17,7 @@ import sharePoint from "./images/sharePoint.png";
 import netsuite from "./images/NetSuite.svg";
 import amazon from "./images/amazon.png";
 import kimetrics from "./images/kimetrics.png";
+import qr from "./images/qr.png";
 
 const apps = [
   {
@@ -157,6 +158,13 @@ const apps = [
     description:
       "Accede a Masteredi para consultar de manera rápida y eficiente los pagos recibidos de clientes en el área de cuentas por cobrar.",
     url: "https://masteredi-app-portalweb-prod.azurewebsites.net/Login/Index?ReturnUrl=%2f",
+  },
+  {
+    image: qr,
+    title: "Generador de Códigos QR",
+    description:
+      "Aplicación web para generar códigos QR totalmente personalizables, sin fecha de caducidad. Personaliza colores, formas y más, y descarga tus códigos en alta calidad en formato PNG.",
+    url: "http://qrgenerator.domcloud.dev/",
   },
 ];
 
