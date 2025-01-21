@@ -29,9 +29,15 @@ const App = () => {
   // Cargar favoritos desde localStorage al iniciar
   useEffect(() => {
     const storedFavorites = JSON.parse(localStorage.getItem("favorites"));
+    const storedDarkMode = JSON.parse(localStorage.getItem("darkMode"));
+
     if (storedFavorites) {
       setFavorites(storedFavorites);
     }
+    if (storedDarkMode !== null) {
+      setDarkMode(storedDarkMode);
+    }
+
   }, []);
 
   const handleSearchChange = (event) => {
@@ -39,7 +45,9 @@ const App = () => {
   };
 
   const handleChangeTheme = () => {
-    setDarkMode(!darkMode);
+    const newMode = !darkMode;
+    setDarkMode(newMode);
+    localStorage.setItem("darkMode", JSON.stringify(newMode));
   };
 
   // Filtrar apps por búsqueda
