@@ -18,6 +18,9 @@ import netsuite from "./images/NetSuite.svg";
 import amazon from "./images/amazon.png";
 import kimetrics from "./images/kimetrics.png";
 import qr from "./images/qr.png";
+import cmr from "./images/cmr.png";
+import asana from "./images/asana.svg";
+import chatgpt from "./images/chatgpt.svg";
 
 const apps = [
   {
@@ -165,6 +168,27 @@ const apps = [
     description:
       "Aplicación web para generar códigos QR totalmente personalizables, sin fecha de caducidad. Personaliza colores, formas y más, y descarga tus códigos en alta calidad en formato PNG.",
     url: "http://qrgenerator.domcloud.dev/",
+  },
+  {
+    image: cmr,
+    title: "Facturación CMR",
+    description:
+      "Accede al portal de Facturación Electrónica de CMR para gestionar y consultar tus comprobantes fiscales de manera rápida y sencilla.",
+    url: "http://facturacion.cmr.mx/",
+  },
+  {
+    image: asana,
+    title: "Asana",
+    description:
+      "Plataforma de gestión de proyectos y tareas que te ayuda a organizar el trabajo en equipo de manera eficiente.",
+    url: "https://app.asana.com/-/login",
+  },
+  {
+    image: chatgpt,
+    title: "ChatGPT",
+    description:
+      "Potente asistente de inteligencia artificial para responder preguntas, generar contenido y ayudarte en diversas tareas.",
+    url: "https://chatgpt.com/",
   },
 ];
 
