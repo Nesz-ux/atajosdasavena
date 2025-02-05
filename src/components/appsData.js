@@ -21,6 +21,7 @@ import qr from "./images/qr.png";
 import cmr from "./images/cmr.png";
 import asana from "./images/asana.svg";
 import chatgpt from "./images/chatgpt.svg";
+import acceso from "./images/accesos.png";
 
 const apps = [
   {
@@ -189,6 +190,13 @@ const apps = [
     description:
       "Potente asistente de inteligencia artificial para responder preguntas, generar contenido y ayudarte en diversas tareas.",
     url: "https://chatgpt.com/",
+  },
+  {
+    image: acceso,
+    title: "Tarjetas de Acceso",
+    description:
+      "Formulario para solicitar tarjetas de acceso a las instalaciones de la empresa.",
+    url: "https://tarjetas-de-acceso.vercel.app/",
   },
 ];
 
