@@ -205,32 +205,27 @@ const apps = [
   {
     image: totalplay,
     title: "Total Play",
-    description:
-      "Sitio para administrar los pagos de Total Play.",
-    url: "https://mitotalplay.com.mx/",
-  },
-  {
+    description: "Plataforma para gestionar los pagos y servicios de Total Play.",
+    url: "https://mitotalplay.com.mx/"
+},
+{
     image: unifi,
     title: "Unifi",
-    description:
-      "Sitio para administrar las redes de Dasavena",
-    url: "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F",
-  },
-  {
+    description: "Portal de administración de redes de Dasavena.",
+    url: "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F"
+},
+{
     image: alarma,
     title: "Alarmas",
-    description:
-      "Sitio para administrar el sistema de alarmas de Dasavena",
-    url: "https://www.alarm.com/login.aspx?_ga=2.239574211.1538415528.1739308960-1916156321.1737568293",
-  },
-  {
+    description: "Sistema de gestión y monitoreo de alarmas de Dasavena.",
+    url: "https://www.alarm.com/login.aspx?_ga=2.239574211.1538415528.1739308960-1916156321.1737568293"
+},
+{
     image: telcel,
     title: "Telcel",
-    description:
-      "Sitio para administrar la facturación de Telcel",
-    url: "https://empresas.mitelcel.com/login",
-  },
-
+    description: "Portal de administración y facturación de servicios Telcel.",
+    url: "https://empresas.mitelcel.com/login"
+}
 
 ];
 
