@@ -22,6 +22,10 @@ import cmr from "./images/cmr.png";
 import asana from "./images/asana.svg";
 import chatgpt from "./images/chatgpt.svg";
 import acceso from "./images/accesos.png";
+import telcel from "./images/telcel.png";
+import alarma from "./images/alarma.png";
+import unifi from "./images/unifi.png";
+import totalplay from "./images/totalplay.svg";
 
 const apps = [
   {
@@ -198,6 +202,36 @@ const apps = [
       "Formulario para solicitar tarjetas de acceso a las instalaciones de la empresa.",
     url: "https://tarjetas-de-acceso.vercel.app/",
   },
+  {
+    image: totalplay,
+    title: "Total Play",
+    description:
+      "Sitio para administrar los pagos de Total Play.",
+    url: "https://mitotalplay.com.mx/",
+  },
+  {
+    image: unifi,
+    title: "Unifi",
+    description:
+      "Sitio para administrar las redes de Dasavena",
+    url: "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F",
+  },
+  {
+    image: alarma,
+    title: "Alarmas",
+    description:
+      "Sitio para administrar el sistema de alarmas de Dasavena",
+    url: "https://www.alarm.com/login.aspx?_ga=2.239574211.1538415528.1739308960-1916156321.1737568293",
+  },
+  {
+    image: telcel,
+    title: "Telcel",
+    description:
+      "Sitio para administrar la facturación de Telcel",
+    url: "https://empresas.mitelcel.com/login",
+  },
+
+
 ];
 
 export default apps;
