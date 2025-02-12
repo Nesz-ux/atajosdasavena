@@ -4,8 +4,8 @@ import Card from "./components/Card";
 import "./App.css";
 import apps from "./components/appsData";
 import LogoDasavena from "./components/images/LogoDasavena.png";
-import moon from "./components/images/luna.gif";
-import sun from "./components/images/sol.gif";
+import moon from "./components/images/luna.webp";
+import sun from "./components/images/sol.webp";
 import falseSearchWhite from "./components/images/falseSearchWhite.json";
 import falseSearchBlack from "./components/images/falseSearchBlack.json";
 
