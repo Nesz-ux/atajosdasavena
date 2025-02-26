@@ -22,10 +22,11 @@ import cmr from "./images/cmr.png";
 import asana from "./images/asana.svg";
 import chatgpt from "./images/chatgpt.svg";
 import acceso from "./images/accesos.png";
-import telcel from "./images/telcel.png";
+import telcel from "./images/telcel.svg";
 import alarma from "./images/alarma.png";
 import unifi from "./images/unifi.png";
 import totalplay from "./images/totalplay.svg";
+import timhortons from "./images/timhortons.png";
 
 const apps = [
   {
@@ -225,6 +226,12 @@ const apps = [
     title: "Telcel",
     description: "Portal de administración y facturación de servicios Telcel.",
     url: "https://empresas.mitelcel.com/login"
+},
+{
+  image: timhortons,
+  title: "Factura Tim Hortons",
+  description: "Portal de facturación de Tim Hortons.",
+  url: "https://timhortonsmx.com/es/facturacion.html"
 }
 
 ];

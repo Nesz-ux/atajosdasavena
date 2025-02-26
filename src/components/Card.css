@@ -38,7 +38,7 @@
 }
 
 .card-title {
-  font-family: "Lexend", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0 0 10px 0;
@@ -46,8 +46,8 @@
 }
 
 .card-description {
-  font-family: "Lexend", sans-serif;
-  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-size: 0.9rem;
   color: inherit;
 }
