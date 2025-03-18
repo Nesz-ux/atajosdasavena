@@ -28,6 +28,8 @@ import unifi from "./images/unifi.png";
 import totalplay from "./images/totalplay.svg";
 import timhortons from "./images/timhortons.png";
 import easypdf from "./images/easypdf.png";
+import evaluacionti from "./images/evaluacionti.png";
+import contingenciasistema from "./images/contingenciasistema.png";
 
 const apps = [
   {
@@ -36,6 +38,13 @@ const apps = [
     description:
       "Accede a este formulario para obtener asistencia técnica personalizada del departamento de sistemas, asegurando una atención eficiente y de calidad.",
     url: "https://forms.office.com/Pages/ResponsePage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUQlVOUzVHMkZIQks1RDNISUxSMk5OVUw0Ui4u",
+  },
+  {
+    image: evaluacionti,
+    title: "Evaluación de Soporte TI",
+    description:
+      "Completa la evaluación de soporte técnico para mejorar la calidad del servicio.",
+    url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUM1FCS1c1Ukc2T0RJREpNTjhBVUpDTFAyQy4u&route=shorturl",
   },
   {
     image: equipoComputo,
@@ -207,40 +216,47 @@ const apps = [
   {
     image: totalplay,
     title: "Total Play",
-    description: "Plataforma para gestionar los pagos y servicios de Total Play.",
-    url: "https://mitotalplay.com.mx/"
-},
-{
+    description:
+      "Plataforma para gestionar los pagos y servicios de Total Play.",
+    url: "https://mitotalplay.com.mx/",
+  },
+  {
     image: unifi,
     title: "Unifi",
     description: "Portal de administración de redes de Dasavena.",
-    url: "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F"
-},
-{
+    url: "https://account.ui.com/login?redirect=https%3A%2F%2Funifi.ui.com%2F",
+  },
+  {
     image: alarma,
     title: "Alarmas",
     description: "Sistema de gestión y monitoreo de alarmas de Dasavena.",
-    url: "https://www.alarm.com/login.aspx?_ga=2.239574211.1538415528.1739308960-1916156321.1737568293"
-},
-{
+    url: "https://www.alarm.com/login.aspx?_ga=2.239574211.1538415528.1739308960-1916156321.1737568293",
+  },
+  {
     image: telcel,
     title: "Telcel",
     description: "Portal de administración y facturación de servicios Telcel.",
-    url: "https://empresas.mitelcel.com/login"
-},
-{
-  image: timhortons,
-  title: "Factura Tim Hortons",
-  description: "Portal de facturación de Tim Hortons.",
-  url: "https://timhortonsmx.com/es/facturacion.html"
-},
-{
-  image: easypdf,
-  title: "Easy PDF",
-  description: "Convierte tus archivos a PDF de manera rápida y sencilla.",
-  url: "https://easypdfdasa.osk.dom.my.id/"
-}
-
+    url: "https://empresas.mitelcel.com/login",
+  },
+  {
+    image: timhortons,
+    title: "Factura Tim Hortons",
+    description: "Portal de facturación de Tim Hortons.",
+    url: "https://timhortonsmx.com/es/facturacion.html",
+  },
+  {
+    image: easypdf,
+    title: "Easy PDF",
+    description: "Convierte tus archivos a PDF de manera rápida y sencilla.",
+    url: "https://easypdfdasa.osk.dom.my.id/",
+  },
+  {
+    image: contingenciasistema,
+    title: "Contingencias Sistemas",
+    description: "Creacin de reportes de contingencias de sistemas.",
+    url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUOU44UzFEVE0yM0hIVTc3MERQVjhWNzFCNS4u&route=shorturl",
+  },
+  
 ];
 
 export default apps;
