@@ -27,6 +27,7 @@ import alarma from "./images/alarma.png";
 import unifi from "./images/unifi.png";
 import totalplay from "./images/totalplay.svg";
 import timhortons from "./images/timhortons.png";
+import easypdf from "./images/easypdf.png";
 
 const apps = [
   {
@@ -232,6 +233,12 @@ const apps = [
   title: "Factura Tim Hortons",
   description: "Portal de facturación de Tim Hortons.",
   url: "https://timhortonsmx.com/es/facturacion.html"
+},
+{
+  image: easypdf,
+  title: "Easy PDF",
+  description: "Convierte tus archivos a PDF de manera rápida y sencilla.",
+  url: "https://easypdfdasa.osk.dom.my.id/"
 }
 
 ];
