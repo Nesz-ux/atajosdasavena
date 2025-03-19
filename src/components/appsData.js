@@ -30,6 +30,7 @@ import timhortons from "./images/timhortons.png";
 import easypdf from "./images/easypdf.png";
 import evaluacionti from "./images/evaluacionti.png";
 import contingenciasistema from "./images/contingenciasistema.png";
+import bajasactivos from "./images/bajasactivos.png";
 
 const apps = [
   {
@@ -127,6 +128,12 @@ const apps = [
     description:
       "Aplicación web para guardar los datos de los activos de la empresa y generar un QR para cada uno de ellos.",
     url: "https://logisticaqr.domcloud.dev/",
+  },
+  {
+    image: bajasactivos,
+    title: "Baja de Activos",
+    description: "Formulario para dar de baja activos de la empresa.",
+    url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUNVFBTUlDVUcwSVVDTkxSUkRURjFWRlU5Ty4u&route=shorturl",
   },
   {
     image: lider,
@@ -253,9 +260,10 @@ const apps = [
   {
     image: contingenciasistema,
     title: "Contingencias Sistemas",
-    description: "Creacin de reportes de contingencias de sistemas.",
+    description: "Creación de reportes de contingencias de sistemas.",
     url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUOU44UzFEVE0yM0hIVTc3MERQVjhWNzFCNS4u&route=shorturl",
   },
+  
   
 ];
 
