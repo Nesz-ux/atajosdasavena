@@ -31,7 +31,7 @@ import easypdf from "./images/easypdf.png";
 import evaluacionti from "./images/evaluacionti.png";
 import contingenciasistema from "./images/contingenciasistema.png";
 import bajasactivos from "./images/bajasactivos.png";
-
+import LogoDasavena from "./images/logoDasavena.png";
 const apps = [
   {
     image: soporteTI,
@@ -263,7 +263,12 @@ const apps = [
     description: "Creación de reportes de contingencias de sistemas.",
     url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUOU44UzFEVE0yM0hIVTc3MERQVjhWNzFCNS4u&route=shorturl",
   },
-  
+  {
+    image: LogoDasavena,
+    title: "App Dasavena",
+    description: "Accede a la aplicación móvil de Dasavena para gestionar tus tareas y actividades diarias.",
+    url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUOU44UzFEVE0yM0hIVTc3MERQVjhWNzFCNS4u&route=shorturl",
+  },
   
 ];
 
