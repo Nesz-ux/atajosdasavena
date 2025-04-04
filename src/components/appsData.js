@@ -270,7 +270,7 @@ const apps = [
     title: "App Dasavena",
     description:
       "Accede a la aplicación móvil de Dasavena para gestionar tus tareas y actividades diarias.",
-    url: "https://dasavenagourmet123-my.sharepoint.com/:u:/g/personal/brandon_devora_dasavena_com/EcQSeqQG9XBPoFKGnXi8GB8BS_2kgQWdPIbdJDIoeTRQuQ?e=Y6qqRU",
+    url: "https://dasavenagourmet123-my.sharepoint.com/:f:/g/personal/brandon_devora_dasavena_com/ErbsipFvkGdPmxKwyqKmUScB6vMb8gMBMttrcNaac8bfpg?e=AD98DG",
   },
   {
     image: Planner,
