@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 import "./Card.css";
 import * as iconHi from "react-icons/hi2";
 
@@ -41,6 +41,15 @@ const Card = ({
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  isfavorite: PropTypes.bool.isRequired,
+  onToggleFavorite: PropTypes.func.isRequired,
 };
 
 export default Card;

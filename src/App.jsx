@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 import Card from "./components/Card";
 import "./App.css";
@@ -37,7 +37,6 @@ const App = () => {
     if (storedDarkMode !== null) {
       setDarkMode(storedDarkMode);
     }
-
   }, []);
 
   const handleSearchChange = (event) => {
@@ -68,7 +67,7 @@ const App = () => {
     return (
       (title.includes(normalizedSearchTerm) ||
         description.includes(normalizedSearchTerm)) &&
-        !favorites.some((fav) => fav.title === app.title)
+      !favorites.some((fav) => fav.title === app.title)
     );
   });
 

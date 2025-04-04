@@ -32,6 +32,8 @@ import evaluacionti from "./images/evaluacionti.png";
 import contingenciasistema from "./images/contingenciasistema.png";
 import bajasactivos from "./images/bajasactivos.png";
 import LogoDasavena from "./images/logoDasavena.png";
+import Planner from "./images/planner.png";
+
 const apps = [
   {
     image: soporteTI,
@@ -266,10 +268,17 @@ const apps = [
   {
     image: LogoDasavena,
     title: "App Dasavena",
-    description: "Accede a la aplicación móvil de Dasavena para gestionar tus tareas y actividades diarias.",
-    url: "https://forms.office.com/pages/responsepage.aspx?id=dGXF5BbBAE28_ZXHcWcv_Lcs0f3SibNOvBMHQxEo7xJUOU44UzFEVE0yM0hIVTc3MERQVjhWNzFCNS4u&route=shorturl",
+    description:
+      "Accede a la aplicación móvil de Dasavena para gestionar tus tareas y actividades diarias.",
+    url: "https://dasavenagourmet123-my.sharepoint.com/:u:/g/personal/brandon_devora_dasavena_com/EcQSeqQG9XBPoFKGnXi8GB8BS_2kgQWdPIbdJDIoeTRQuQ?e=Y6qqRU",
   },
-  
+  {
+    image: Planner,
+    title: "Planner",
+    description:
+      "Herramienta de planificación y gestión de tareas para equipos de Microsoft.",
+    url: "https://planner.cloud.microsoft/",
+  },
 ];
 
 export default apps;
