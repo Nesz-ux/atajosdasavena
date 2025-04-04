@@ -31,8 +31,8 @@ import easypdf from "./images/easypdf.png";
 import evaluacionti from "./images/evaluacionti.png";
 import contingenciasistema from "./images/contingenciasistema.png";
 import bajasactivos from "./images/bajasactivos.png";
-import LogoDasavena from "./images/logoDasavena.png";
-import Planner from "./images/planner.png";
+import LogoDasavena from "./images/LogoDasavena.png";
+import Planner from "./images/Planner.png";
 
 const apps = [
   {
