@@ -33,6 +33,7 @@ import contingenciasistema from "./images/contingenciasistema.png";
 import bajasactivos from "./images/bajasactivos.png";
 import LogoDasavena from "./images/LogoDasavena.png";
 import Planner from "./images/Planner.png";
+import sgi from "./images/sgi.png";
 
 const apps = [
   {
@@ -279,6 +280,14 @@ const apps = [
       "Herramienta de planificación y gestión de tareas para equipos de Microsoft.",
     url: "https://planner.cloud.microsoft/",
   },
+  {
+    image: sgi,
+    title: "Dasavena SGI",
+    description:
+      "Herramienta de solicitud de cambios del SGI Dasavena.",
+    url: "https://sigdasa.domcloud.dev/",
+  },
+
 ];
 
 export default apps;
