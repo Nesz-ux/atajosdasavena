@@ -151,7 +151,7 @@ const apps = [
     title: "Cursos SGI",
     description:
       "Cursos y capacitaciones diseñados para el desarrollo del personal interno de la empresa.",
-    url: "https://cursos.dasavena-intranet.com/courses/",
+    url: "https://dascursos.dasavena-intranet.com/all-courses/",
   },
   {
     image: powerbi,
@@ -287,7 +287,13 @@ const apps = [
       "Herramienta de solicitud de cambios del SGI Dasavena.",
     url: "https://sigdasa.domcloud.dev/",
   },
-
+  {
+    image: sharePoint,
+    title: "Share Point SGI",
+    description:
+      "Plataforma de colaboración que permite gestionar documentos, compartir información y coordinar proyectos dentro de la organización.",
+    url: "https://dasavenagourmet123.sharepoint.com/sites/SistemadeGestion",
+  },
 ];
 
 export default apps;
